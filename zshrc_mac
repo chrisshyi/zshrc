@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
 export PATH="$(brew --prefix)/opt/findutils/libexec/gnubin:${PATH}"
 export PATH="$(brew --prefix)/opt/grep/libexec/gnubin:${PATH}"
+export PATH="/Users/chrisshyi/go/bin:${PATH}"
 ####### Git related
 alias gplom="git pull origin master"
 alias gpl="git pull"
@@ -132,3 +133,4 @@ alias df="df -t ext4 -h"
 
 alias mysql=/usr/local/mysql/bin/mysql
 alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+alias go13="go1.13.15"
